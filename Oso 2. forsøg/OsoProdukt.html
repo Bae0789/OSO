@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Oso projekt</title>
+    <meta charset="utf-8"> <!--æøå-->
+    <meta name="description" content="Oso projekt HTML">
+    <link rel="shortcut icon" type="image/x-icon" href="iconfinder-24.png">
+    <style>
+		table,th, td
+    {
+			border: 1px solid black;
+		}
+	   </style>
+     <link rel="stylesheet" href="Css.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="bbody"> <!--Body-->
+
+      <div class="ooverskrift"> <!--Overskrift-->
+        <h1>Overskrift</h1>
+      </div> <!--Overskrift-->
+
+      <hr>
+
+      <div class="ttable"> <!--Table-->
+        <table>
+        	<tr>
+        		<th>&nbsp;&nbsp;Uddandelses navn&nbsp;&nbsp;</th>
+        		<th>&nbsp;&nbsp;Uddandelse&nbsp;&nbsp;</th>
+        		<th>&nbsp;&nbsp;Skole navn&nbsp;&nbsp;</th>
+        		<th>&nbsp;&nbsp;Antal år&nbsp;&nbsp;</th>
+        	</tr>
+        	<tr>
+        		<td>HTX</td>
+        		<td>Gymnasial</td>
+        		<td>&nbsp;&nbsp;Game College Grenaa&nbsp;&nbsp;</td>
+        		<td>3 år</td>
+        	</tr>
+        	<tr>
+        		<td>Software</td>
+        		<td>&nbsp;&nbsp;Bacheloruddandelse&nbsp;&nbsp;</td>
+        		<td>Aalborg universitet</td>
+        		<td>3 år</td>
+        	</tr>
+        	<tr>
+        		<td>Software</td>
+        		<td>Kandidatuddandelse</td>
+        		<td>Aalborg universitet</td>
+        		<td>2 år</td>
+        	</tr>
+        </table>
+      </div> <!--Table-->
+
+      <hr>
+
+      <div class="llink"> <!--Links-->
+          <p>
+          <b>Links</b> <br/>
+          <a href="https://hu.viggo.dk" target="_blank">HU Viggo</a> <br/>
+          <a href="https://www.gamecollege.dk/" target="_blank">Game College Grenaa</a> <br/>
+          <a href="https://www.ug.dk/uddannelser/bachelorogkandidatuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/software" target="_blank">Software Bachelor </a> <br/>
+          <a href="https://www.ug.dk/uddannelser/bachelorogkandidatuddannelser/kandidatuddannelser/tekniskvidenskabeligekandidatuddannelser/civilingenioeruddannelser/software" target="_blank">Software Kandidat</a>
+          </p>
+        <img src="iconfinder-512.png" width="300px" alt="OSO">
+      </div> <!--Links-->
+
+      <hr>
+
+      <div class="fform"> <!--Form-->
+        <form id="form1" action="#" method="post"> <!--Formular-->
+
+        <div> <!--Navn og Text felt-->
+          Navn: <br/>
+          <input type="text" autofocus /> <!--Text: man skriver noget-->
+        </div> <!--Navn og Text felt-->
+
+        <br>
+
+        <div> <!--Hjemmeside og Text felt-->
+          Hjemmeside: <br/>
+          <input type="url"/><!--url: Den kan kun modtage en url altså hjemmeside-->
+        </div> <!--Hjemmeside og Text felt-->
+
+        <br>
+
+        <div> <!--Hjemmeside2 og Text felt-->
+          Hjemmeside: <br/>
+          <input type="url" disabled=""bled value="ikke nødvændig" /><!--url: Den kan kun modtage en url altså hjemmeside-->
+        </div> <!--Hjemmeside2 og Text felt-->
+
+        <br>
+
+        <div> <!--Vælg 1-->
+          <label for="<9.klasse"> < 9. klasse </label>
+          <input type="radio" value="<9" name="Klasse" id="<9.klasse" checked /> <!--Radio: man kan kun vælge en af delene-->
+
+          <label for="9.klasse" > 9. klasse </label>
+          <input type="radio" value="9" name="Klasse" id="9.klasse" checked /> <!--Radio: man kan kun vælge en af delene-->
+
+          <label for="10.klasse"> 10. klasse </label>
+          <input type="radio" value="10" name="Klasse" id="10.klasse" checked /> <!--Radio: man kan kun vælge en af delene-->
+
+          <label for="10.klasse<"> 10. klasse < </label>
+          <input type="radio" value="10<" name="Klasse" id="10.klasse<" checked /> <!--Radio: man kan kun vælge en af delene-->
+        </div> <!--Vælg 1-->
+
+        <br>
+
+        <div> <!--Vælg flere-->
+          <label for="htx">HTX</label>
+          <input type="checkbox" value="htx" name="Gym" id="htx"> <!--Checkbox: man kan vælge flere af tingene-->
+
+          <label for="hhx">HHX</label>
+          <input type="checkbox" value="hhx" name="Gym" id="hhx"> <!--Checkbox: man kan vælge flere af tingene-->
+
+          <label for="stx">STX</label>
+          <input type="checkbox" value="stx" name="Gym" id="stx"> <!--Checkbox: man kan vælge flere af tingene-->
+
+          <label for="eud">EUD</label>
+          <input type="checkbox" value="eud" name="Gym" id="eud"> <!--Checkbox: man kan vælge flere af tingene-->
+
+          <label for="eux">EUX</label>
+          <input type="checkbox" value="eux" name="Gym" id="eux"> <!--Checkbox: man kan vælge flere af tingene-->
+        </div> <!--Vælg flere-->
+
+        <br>
+
+        <div> <!--Tekst felt-->
+          Hvorfor lige de uddandelser? <br>
+          <textarea style="width: 200px"></textarea>
+        </div> <!--Tekst felt-->
+
+        <br>
+
+        <div> <!--Slet tekst-->
+          <input type="reset" value="Slet">
+        </div> <!--Slet tekst-->
+
+        <br>
+
+        <div> <!--Send tekst-->
+          <input type="submit" value="Send" /> <!--Submit: en knap som sender Send er det der står på knappen-->
+        </div> <!--Send tekst-->
+
+        <br>
+        </form>
+
+      </div> <!--Form-->
+
+      <hr>
+
+      <div class="lliste"> <!--Liste-->
+        <ul><!--U ordnet liste med punkter-->
+          <li>Top
+            <ol><!--ordnet liste med tal-->
+              <li>T-shirt</li>
+              <li>Tank top</li>
+              <li>Langærmet</li>
+              <li>Hættetrøje</li>
+              <li>Sweatshirt</li>
+            </ol>
+          </li>
+          <li>Under
+            <ol>
+              <li>Shorts</li>
+              <li>Nederdel</li>
+              <li>Bukser</li>
+            </ol>
+          </li>
+          <li>Sko</li>
+          <li>Overtøj</li>
+        </ul>
+      </div> <!--Liste-->
+
+    </div> <!--Body-->
+  </body>
+</html>

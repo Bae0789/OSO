@@ -1,0 +1,25 @@
+body{
+  font-family: arial;
+  background-color: #CF84FC;
+}
+
+.bbody{
+    margin-left: 10px;
+}
+
+.ooverskrift{
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 30PX;
+  font-family: cursive;
+  text-decoration-color:
+}
+
+.ttable{
+  text-align: center;
+}
+
+.fform{
+  font-family: monospace;
+  font-stretch: extra-condensed;
+}
